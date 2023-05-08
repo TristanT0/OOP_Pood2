@@ -1,8 +1,10 @@
 package pood.eepilinepood;
+import javafx.scene.Node;
+
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
-public class Toode{
+public class Toode extends Node {
     double hind;
     String nimi;
     double allahindlus;
@@ -53,5 +55,10 @@ public class Toode{
         } else {
             return " " + nimi + " " + hind + " eurot";
         }
+    }
+
+    @Override
+    public Node getStyleableNode() {
+        return super.getStyleableNode();
     }
 }
