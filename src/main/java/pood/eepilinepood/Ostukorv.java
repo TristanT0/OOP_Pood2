@@ -1,12 +1,10 @@
 package pood.eepilinepood;
-
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.StringJoiner;
 import java.util.function.ToDoubleBiFunction;
-
 public class Ostukorv {
 
     List<Toode> ostukorv = new ArrayList<>();
