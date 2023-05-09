@@ -1,0 +1,119 @@
+: Tooted ostukorvis: 
+  kummelitee
+4.5 eurot
+  kummelitee
+4.5 eurot
+  Laua Viin
+11.9 eurot
+
+cheesi: Tooted ostukorvis: 
+  Kuld-Nõelköis
+16.7 eurot
+  Kuld-Nõelköis
+16.7 eurot
+
+oh jumal kui kallis ostis järgmised tooted: 
+  "Harry Potter ja segavereline prints" raamat
+10.7 eurot
+  Kuld-Nõelköis
+16.7 eurot
+  LEGO Star Wars
+15.6 eurot
+  Laua Viin
+11.9 eurot
+  lusikas
+0.99 eurot
+  Postimees ajaleht
+0.59 eurot
+  palderjan
+7.99 eurot
+  "Imeilusat jõuluaega" kaart
+4.99 eurot
+  ratastool
+169.6 eurot
+
+  apelsinid korviga
+5.6 eurot
+
+ ostis järgmised tooted: 
+  laualamp "Shady"
+11.91 eurot (vana hind 59.99 eurot)
+
+ ostis järgmised tooted: 
+  Kuld-Nõelköis
+4.98 eurot (vana hind 16.7 eurot)
+  "Sipsok" raamat
+5.58 eurot (vana hind 10.7 eurot)
+  "Sipsok" raamat
+5.58 eurot (vana hind 10.7 eurot)
+  laualamp "Shady"
+59.99 eurot
+  lusikas
+0.99 eurot
+  lusikas
+0.99 eurot
+  lusikas
+0.99 eurot
+
+yes ostis järgmised tooted: 
+  laualamp "Shady"
+59.99 eurot
+  Kuld-Nõelköis
+16.7 eurot
+
+oh jumal ostis järgmised tooted: 
+  lusikas
+0.99 eurot
+  kahvel
+1.49 eurot
+  laualamp "Shady"
+59.99 eurot
+  elektriline massaaþivahend
+24.34 eurot
+  "Sipsok" raamat
+6.6 eurot (vana hind 10.7 eurot)
+  pruunist lehm
+4.06 eurot (vana hind 25.39 eurot)
+  pruunist lehm
+4.06 eurot (vana hind 25.39 eurot)
+  pruunist lehm
+4.06 eurot (vana hind 25.39 eurot)
+  pruunist lehm
+4.06 eurot (vana hind 25.39 eurot)
+  uisud
+47.49 eurot (vana hind 69.69 eurot)
+  uisud
+47.49 eurot (vana hind 69.69 eurot)
+  uisud
+47.49 eurot (vana hind 69.69 eurot)
+  uisud
+47.49 eurot (vana hind 69.69 eurot)
+  uisud
+47.49 eurot (vana hind 69.69 eurot)
+  uisud
+47.49 eurot (vana hind 69.69 eurot)
+  uisud
+47.49 eurot (vana hind 69.69 eurot)
+  uisud
+47.49 eurot (vana hind 69.69 eurot)
+  uisud
+47.49 eurot (vana hind 69.69 eurot)
+  uisud
+47.49 eurot (vana hind 69.69 eurot)
+  uisud
+47.49 eurot (vana hind 69.69 eurot)
+  uisud
+47.49 eurot (vana hind 69.69 eurot)
+
+piim ostis järgmised tooted: 
+  laualamp "Shady"
+59.99 eurot
+
+Juhan ostis järgmised tooted: 
+  laualamp "Shady"
+59.99 eurot
+  Postimees ajaleht
+0.31 eurot (vana hind 0.59 eurot)
+  minu esimene nuga komplekt
+21.15 eurot
+
