@@ -54,7 +54,7 @@ public class LeShop extends Application {
         shopName2.setFont(new Font(55));
         shopName.setFont(new Font(55));
 
-        //vbucks, mille nimi on nimekast!
+        //Vboxid lehtedele elementide pagutamiseks
         VBox nimekast = new VBox(shopName1);
         VBox teineKarp = new VBox();
         HBox karp = new HBox();
@@ -63,6 +63,7 @@ public class LeShop extends Application {
         Button buttonx = new Button("Sisene poodi!");
         Button button1 = new Button("Välju poest!");
 
+        //Koodi jupp et label oleks alati keskel olenemata akna suurusest
         nimekast.layoutXProperty().bind(Bindings.createDoubleBinding(() ->
                         (scene.getWidth() - nimekast.getWidth()) / 2,
                 scene.widthProperty(), nimekast.widthProperty()));
@@ -99,7 +100,7 @@ public class LeShop extends Application {
         teineLeht.setVisible(false);
         kolmasLeht.setVisible(false);
 
-
+        //Teeme GridPane nii, et mahuks ära 3 kolonni ja 4 rida
         for (int i = 0; i < 3; i++) {
             ColumnConstraints col = new ColumnConstraints();
             col.setPercentWidth(100/3.0);
@@ -131,10 +132,11 @@ public class LeShop extends Application {
         teineLeht.setHgap(20);
         teineLeht.setVgap(20);
 
-        int abi = 1; //aitamaks meid
-        for (int i = 0; i < 3; i++) {
+        int abi = 1; //aitab lugeda mitmendale lehele lähevad elemendid
+        for (int i = 0; i < 3; i++) { //For loop et lisada igale lehele erinevad nupud, lisaks kõik loopi osad on praktiliselt samad aga
+            // nendes on väksed erinevused, sest lehtedel liikumine on erinev olenevalt mis lehel hetkel kasutaja paikneb
             if (i == 0){
-                for (int j = 0; j < 3; j++) {
+                for (int j = 0; j < 3; j++) {//Lisab toodete nupud nii et need mahuksid ära 3x3 Gridile
                     for (int k = 0; k < 3; k++) {
                         Toode toode = tootedMüügil.get(abi++);
                         Button button = new Button(toode.toString());
@@ -159,6 +161,7 @@ public class LeShop extends Application {
                     kolmasLeht.setVisible(true);
 
                 });
+                //Stop  nupp veel  muudab poe nähtamatuks ja toob nähtavale poest lahkumise akna
                 stop1.setOnMouseClicked(e -> {
                     product.setVisible(false);
                     valjumine.setVisible(true);
