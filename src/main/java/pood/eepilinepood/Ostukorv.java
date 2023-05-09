@@ -33,11 +33,15 @@ public class Ostukorv {
         return säästetud;
     }
 
+    public int toodeteArv(){
+        return ostukorv.size();
+    }
+
     @Override
     public String toString() {
         StringBuilder tooted = new StringBuilder();
 
-        tooted.append("Tooted ostukorvis: \n");
+        tooted.append(" ostis järgmised tooted: \n");
         for (int i = 0; i < ostukorv.size(); i++) {
 
             tooted.append(" ").append(ostukorv.get(i).toString()).append('\n');

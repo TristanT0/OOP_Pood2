@@ -51,9 +51,9 @@ public class Toode extends Node {
     // Toote + hinna väljastamine
     public String toString() {
         if (allahindlus!=0) {
-            return " " + nimi + " " + hindAllahindlusega(hind, allahindlus) + " eurot (vana hind " + hind + " eurot)";
+            return " " + nimi + "\n" + hindAllahindlusega(hind, allahindlus) + " eurot (vana hind " + hind + " eurot)";
         } else {
-            return " " + nimi + " " + hind + " eurot";
+            return " " + nimi + "\n" + hind + " eurot";
         }
     }
 
